@@ -1,9 +1,9 @@
 <?php
 $TRANSLATIONS = array(
-"External Sites" => "Siti esterni",
+"External Sites" => "Sitios esternos",
 "Name" => "Nome",
 "URL" => "URL",
-"Remove site" => "Rimuovi il sito",
-"Add" => "Aggiungi"
+"Remove site" => "Desaniciar sitiu",
+"Add" => "Amestar"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
