@@ -26,7 +26,9 @@ namespace OCA\External;
 class External {
 
 	public static function getSites() {
-		if (($sites = json_decode(\OCP\Config::getAppValue("external", "sites", ''))) != null) {
+		$sites = \json_decode(\OC::$server->getConfig()
+				->getAppValue('external', 'sites', ''));
+		if ($sites !== null) {
 			return $sites;
 		}
 

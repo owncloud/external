@@ -31,7 +31,7 @@
 				print_unescaped('<option value="">'.$l->t('Select an icon').'</option>');
 			}
 			print_unescaped('</select>
-			<img class="svg action delete_button" src="'.OCP\image_path("", "actions/delete.svg") .'" title="'.$l->t("Remove site").'" />
+			<img class="svg action delete_button" src="' . image_path("", "actions/delete.svg") .'" title="'.$l->t("Remove site").'" />
 			</li>');
 		}
 		if(sizeof($sites) === 0) {
@@ -44,7 +44,7 @@
 			}
 			print_unescaped('<option value="" selected>'.$l->t('Select an icon').'</option>
 			</select>
-			<img class="svg action delete_button" src="'.OCP\image_path("", "actions/delete.svg") .'" title="'.$l->t("Remove site").'" />
+			<img class="svg action delete_button" src="'. image_path("", "actions/delete.svg") .'" title="'.$l->t("Remove site").'" />
 			</li>');
 		}
 

@@ -12,9 +12,9 @@ OCP\User::checkAdminUser();
 OCP\JSON::callCheck();
 
 $sites = array();
-for ($i = 0; $i < sizeof($_POST['site_name']); $i++) {
+for ($i = 0, $iMax = count($_POST['site_name']); $i < $iMax; $i++) {
 	if (!empty($_POST['site_name'][$i]) && !empty($_POST['site_url'][$i])) {
-		array_push($sites, array(strip_tags($_POST['site_name'][$i]), strip_tags($_POST['site_url'][$i]), strip_tags($_POST['site_icon'][$i])));
+		$sites[] = array(strip_tags($_POST['site_name'][$i]), strip_tags($_POST['site_url'][$i]), strip_tags($_POST['site_icon'][$i]));
 	}
 }
 
@@ -30,14 +30,14 @@ foreach($sites as $site) {
 	if (strncmp($site[1], '/', 1) === 0) {
 		continue;
 	}
-	OC_JSON::error(array("data" => array( "message" => $l->t('Please enter valid urls - they have to start with either http://, https:// or /') )));
+	OC_JSON::error(array('data' => array( 'message' => $l->t('Please enter valid urls - they have to start with either http://, https:// or /') )));
 	return;
 }
 
-if (sizeof($sites) == 0) {
+if (count($sites) === 0) {
 	$appConfig = \OC::$server->getAppConfig();
 	$appConfig->deleteKey('external', 'sites');
 } else {
-	OCP\Config::setAppValue('external', 'sites', json_encode($sites));
+	OC::$server->getConfig()->setAppValue('external', 'sites', \json_encode($sites));
 }
-OC_JSON::success(array("data" => array( "message" => $l->t("External sites saved.") )));
+OC_JSON::success(array('data' => array( 'message' => $l->t('External sites saved.') )));

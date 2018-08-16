@@ -29,13 +29,21 @@ $sites = External::getSites();
 if (!empty($sites)) {
 	$urlGenerator = \OC::$server->getURLGenerator();
 	$navigationManager = \OC::$server->getNavigationManager();
-	for ($i = 0; $i < sizeof($sites); $i++) {
+	for ($i = 0, $iMax = sizeof($sites); $i < $iMax; $i++) {
 		$navigationEntry = function () use ($i, $urlGenerator, $sites) {
+			$icon = $urlGenerator->imagePath('external', 'external.svg');
+			if (!empty($sites[$i][2])) {
+				try {
+					$icon = $urlGenerator->imagePath('external', $sites[$i][2]);
+				} catch (RuntimeException $ex) {
+					\OC::$server->getLogger()->logException($ex);
+				}
+			}
 			return [
 				'id'    => 'external_index' . ($i + 1),
 				'order' => 80 + $i,
 				'href' => $urlGenerator->linkToRoute('external_index', ['id'=> $i + 1]),
-				'icon' => $urlGenerator->imagePath('external', !empty($sites[$i][2]) ? $sites[$i][2] : 'external.svg'),
+				'icon' => $icon,
 				'name' => $sites[$i][0],
 			];
 		};
