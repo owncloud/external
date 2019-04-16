@@ -20,5 +20,5 @@
 	<dependencies>
 		<owncloud min-version="10" max-version="10" />
 	</dependencies>
-	<version>1.3.1</version>
+	<version>1.4.0</version>
 </info>
