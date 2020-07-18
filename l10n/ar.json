@@ -1,8 +1,14 @@
 { "translations": {
+    "Please enter valid urls - they have to start with either http://, https:// or /" : "يُرجى إدخال عناوين url صالحة - يجب أن تبدأ إمّا بـ http:// أو https:// أو /",
+    "External sites saved." : "تم حفظ المواقع الخارجية.",
     "External Sites" : "مواقع خارجية",
-    "Name" : "اسم",
-    "URL" : "عنوان الموقع",
-    "Remove site" : "ازل الموقع",
-    "Add" : "اضف"
+    "Please note that some browsers will block displaying of sites via http if you are running https." : "يُرجى ملاحظة أن بعض المتصفحات ستحظر عرض المواقع عبر http إذا كنت تشغِّل https.",
+    "Furthermore please note that many sites these days disallow iframing due to security reasons." : "بالإضافة إلى ذلك، يُرجى ملاحظة أن العديد من المواقع هذه الأيام لا تسمح باستخدام نوافذ الأطر المدمجة (iframing) لأسباب أمنية.",
+    "We highly recommend to test the configured sites below properly." : "نوصي بشدة باختبار المواقع المكونة أدناه بشكل صحيح.",
+    "Name" : "الاسم",
+    "URL" : "URL",
+    "Select an icon" : "حدد رمزًا",
+    "Remove site" : "أزل الموقع",
+    "Add" : "إضافة"
 },"pluralForm" :"nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;"
 }
