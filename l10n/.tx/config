@@ -7,4 +7,3 @@ file_filter = <lang>/external.po
 source_file = templates/external.pot
 source_lang = en
 type = PO
-
