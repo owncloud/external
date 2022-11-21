@@ -9,7 +9,7 @@ OC.L10N.register(
     "We highly recommend to test the configured sites below properly." : "Силно препоръчваме да тестваш настроените сайтове.",
     "Name" : "Име",
     "URL" : "Интернет Адрес",
-    "Select an icon" : "Избери икона",
+    "Select an icon" : "Изберете икона",
     "Remove site" : "Премахни сайт",
     "Add" : "Добави"
 },
