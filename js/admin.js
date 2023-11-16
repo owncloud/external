@@ -14,7 +14,7 @@ $(document).ready(function(){
 			$(this).parent().children('input').val('');
 			$(this).parent().children('select').val('');
 		} else {
-			$(this).tipsy('hide');
+			$(this).tooltip('hide');
 			$(this).parent().remove();
 		}
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
 	$('input[name^=site_]').change(addSiteEventHandler);
 	$('select[name^=site_]').change(addSiteEventHandler);
 	$('img.delete_button').click(deleteButtonEventHandler);
-	$('img.delete_button').tipsy();
+	$('img.delete_button').tooltip();
 
 	$('#external li').hover(showDeleteButton, hideDeleteButton);
 
@@ -54,7 +54,7 @@ $(document).ready(function(){
 
 		$('input.site_url:last').prev('input.site_name').andSelf().change(addSiteEventHandler);
 		$('img.delete_button').click(deleteButtonEventHandler);
-		$('img.delete_button:last').tipsy();
+		$('img.delete_button:last').tooltip();
 		$('#external li:last').hover(showDeleteButton, hideDeleteButton);
 
 	});
