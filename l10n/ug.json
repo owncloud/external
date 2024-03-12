@@ -1,6 +1,14 @@
 { "translations": {
+    "Please enter valid urls - they have to start with either http://, https:// or /" : "ئىناۋەتلىك ئۇلىنىشلارنى كىرگۈزۈڭ - ئۇلار http://, https:// ياكى / بىلەن باشلىنىشى كېرەك",
+    "External sites saved." : "تاشقىي بەت ساقلاندى.",
+    "External Sites" : "تاشقىي بەتلەر",
+    "Please note that some browsers will block displaying of sites via http if you are running https." : "ئەگەر سىز https ئىشلىتىۋاتقان بولسىڭىز بەزى توركۆرگۈلەرنىڭ بەتلەرنى http ئارقىلىق كۆرسىتىشىنى توسۇيدىغانلىقىغا دىققەت قىلىڭ.",
+    "Furthermore please note that many sites these days disallow iframing due to security reasons." : "بۇ كۈنلەردە نۇرغۇن بەتلەرنىڭ ifram نى بىخەتەرلىك سەۋەپلىرى تۈپەيلىدىن رەت قىلىدىغانلىقىغا دىققەت قىلىڭ.",
+    "We highly recommend to test the configured sites below properly." : "بىز تۆۋەندە سەپلەنگەن بەتلەرنى توغرا سىناشنى بەك تەۋسىيە قىلىمىز.",
     "Name" : "ئاتى",
     "URL" : "URL",
+    "Select an icon" : "بىر سىنبەلگە تاللاڭ",
+    "Remove site" : "بەتنى چىقىرۋەت",
     "Add" : "قوش"
-},"pluralForm" :"nplurals=1; plural=0;"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
