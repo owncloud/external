@@ -18,7 +18,7 @@
 	<licence>AGPL</licence>
 	<author>Frank Karlitschek</author>
 	<dependencies>
-		<owncloud min-version="10" max-version="10" />
+		<owncloud min-version="10.15" max-version="11" />
 	</dependencies>
-	<version>1.4.0</version>
+	<version>1.5.0</version>
 </info>
