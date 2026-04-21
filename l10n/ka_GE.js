@@ -1,9 +1,15 @@
 OC.L10N.register(
     "external",
     {
+    "Please enter valid urls - they have to start with either http://, https:// or /" : "შეიყვანეთ სწორი ბმულები - ისინი უნდა იწყებოდეს http://-ით, https://-ით, ან /-ით",
+    "External sites saved." : "გარე საიტები შენახულია.",
     "External Sites" : "გარე საიტები",
+    "Please note that some browsers will block displaying of sites via http if you are running https." : "დაიმახსოვრეთ, რომ ზოგიერთი ბრაუზერი დაბლოკავს საიტების http-ით ჩვენებას, თუ ასევე გაქვთ https.",
+    "Furthermore please note that many sites these days disallow iframing due to security reasons." : "ასევე გახსოვდეთ, რომ ბევრი თანამედროვე საიტი უარყოფს iframe-ში გამოძახებას უსაფრთხოების გამო.",
+    "We highly recommend to test the configured sites below properly." : "გირჩევთ, სწორად დატესტოთ ქვემოთ მითითებული საიტები.",
     "Name" : "სახელი",
     "URL" : "URL",
+    "Select an icon" : "აირჩიეთ ხატულა",
     "Remove site" : "საიტის წაშლა",
     "Add" : "დამატება"
 },

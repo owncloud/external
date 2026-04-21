@@ -1,0 +1,16 @@
+OC.L10N.register(
+    "external",
+    {
+    "Please enter valid urls - they have to start with either http://, https:// or /" : "ກະລຸນາໃສ່ URL ທີ່ຖືກຕ້ອງ - ຕ້ອງເລີ່ມຕົ້ນດ້ວຍ http://, https:// ຫຼື /",
+    "External sites saved." : "ບັນທຶກເວັບໄຊພາຍນອກແລ້ວ.",
+    "External Sites" : "ເວັບໄຊພາຍນອກ",
+    "Please note that some browsers will block displaying of sites via http if you are running https." : "ກະລຸນາຮັບຊາບວ່າ ບາງບຣາວເຊີຈະບລັອກການສະແດງຜົນຂອງເວັບໄຊຜ່ານ http ຖ້າທ່ານກຳລັງນຳໃຊ້ https.",
+    "Furthermore please note that many sites these days disallow iframing due to security reasons." : "ນອກຈາກນັ້ນ, ກະລຸນາຮັບຊາບວ່າ ຫຼາຍເວັບໄຊໃນປັດຈຸບັນແມ່ນບໍ່ອະນຸຍາດໃຫ້ໃຊ້ iframe ເນື່ອງຈາກເຫດຜົນທາງດ້ານຄວາມປອດໄພ.",
+    "We highly recommend to test the configured sites below properly." : "ພວກເຮົາແນະນຳໃຫ້ທ່ານທົດສອບເວັບໄຊທີ່ໄດ້ຕັ້ງຄ່າໄວ້ທາງລຸ່ມນີ້ໃຫ້ລະອຽດ.",
+    "Name" : "ຊື່",
+    "URL" : "URL",
+    "Select an icon" : "ເລືອກໄອຄອນ",
+    "Remove site" : "ລຶບເວັບໄຊອອກ",
+    "Add" : "ເພີ່ມ"
+},
+"nplurals=1; plural=0;");
