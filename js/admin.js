@@ -24,7 +24,7 @@ $(document).ready(function(){
 	function saveSites() {
 		var post = $('#external').serialize();
 		OC.msg.startSaving('#external .msg');
-		$.post( OC.filePath('external','ajax','setsites.php') , post, function(data) {
+		$.post( OC.generateUrl('/apps/external/ajax/setsites') , post, function(data) {
 			OC.msg.finishedSaving('#external .msg', data);
 		});
 	}

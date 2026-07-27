@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Rewire the setsites ajax route to an extension-free url so it is reachable at its own declared url - [#32](https://github.com/owncloud/external/pull/32)
 
 ## [1.5.1] - 2026-07-22
 
