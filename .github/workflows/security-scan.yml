@@ -26,8 +26,3 @@ jobs:
   trivy:
     name: Trivy
     uses: owncloud/reusable-workflows/.github/workflows/trivy.yml@main
-    with:
-      # The Makefile aborts at parse time when npm is missing
-      # ($(error npm is not available on your system)), so node has to be set up
-      # even though the scan itself only needs the built tree.
-      node-version: '18'
